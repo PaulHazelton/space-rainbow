@@ -1,7 +1,13 @@
-/* #030a28 */
+* {
+	/* Replace with your specific font (e.g., CaskaydiaMono, JetBrainsMono) */
+	font-family: "JetBrainsMono Nerd Font Propo";
+}
 
 label {
 	color: #d6fdfd;
+	padding: 0;
+	margin: 0;
+	min-width: 0;
 }
 
 /* #tray {
@@ -18,13 +24,13 @@ label {
 
 .modules-left {
 	/* background-color: #050c3b; */
-	background-color: #250356;
+	background-color: #0a165c;
 	/* background-color: red; */
-    border-radius: 999px;
-    margin: 4px 0;
+	border-radius: 999px;
+	margin: 4px 0;
 	padding-left: 0px;
 	padding-right: 0px;
-    /* padding: 0 10px; */
+	/* padding: 0 10px; */
 }
 
 .modules-center {
@@ -32,10 +38,9 @@ label {
 	padding: 0 10px;
 }
 
-.modules-center > widget > * {
-	background-color: #771982;
+.modules-center>widget>* {
+	background-color: #611588;
 	border-radius: 999px;
-	margin-right: 10px;
 	padding: 0 10px;
 }
 
@@ -44,47 +49,30 @@ label {
 }
 
 .modules-right {
-	background-color: red;
-	/* margin: 4px 0; */
-	margin-top: 4px;
-	margin-bottom: 4px;
-	margin-left: 0;
-	margin-right: 0;
-	padding: 0 0;
+	margin: 4px;
 }
-
 .modules-right > widget {
-	background-color: yellow;
+	/* background-color: #250356; */
+	/* background-color: #771982; */
+	/* background-color: #020922; */
+	background-color: #751a81;
+	margin: 0;
 	padding: 0;
-	margin: 0;
+	/* border-color: #771982;
+	border-style: solid;
+	border-width: 1px; */
 	border-radius: 999px;
 }
 
-.modules-right > widget > * {
-	background-color: #771982;
-	border-radius: 999px;
-	margin: 0;
-	/* margin-right: 10px; */
-	padding: 0 10px;
+.modules-right>widget>* {
+	padding: 0 8px;
 }
 
-/* .modules-right > widget:last-child {
-	margin-right: 0;
-} */
-
-/* .modules-left {
-	background-color: #7c1a8c;
-}
-
-
-.modules-right {
-	background-color: #b1256a;
-} */
 
 tooltip {
-    background: #002040;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+	background: #000933;
+	border-radius: 12px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 #workspaces button {
@@ -94,9 +82,9 @@ tooltip {
 
 #workspaces button.active {
 	border-radius: 999px;
-	background: #9f2b92;
+	background: #02b6eb;
 }
 
-/* #workspaces button.active label {
-	color: #1e1e2e;
-} */
+#workspaces button.active label {
+	color: #ffffff;
+}
