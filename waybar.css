@@ -1,28 +1,102 @@
+/* #030a28 */
 
-#tray {
-    background: #030a28;
+label {
+	color: #d6fdfd;
+}
+
+/* #tray {
     border-radius: 999px;
     margin: 1px 1px;
     padding: 0 1px;
 }
 
-
 #tray window{
-    background: #030a28;
     margin: 1px 1px;
     padding: 0 1px;
     
+} */
+
+.modules-left {
+	/* background-color: #050c3b; */
+	background-color: #250356;
+	/* background-color: red; */
+    border-radius: 999px;
+    margin: 4px 0;
+	padding-left: 0px;
+	padding-right: 0px;
+    /* padding: 0 10px; */
 }
 
-.modules-left, .modules-center, .modules-right  {
-    background: #030a28;
-    border-radius: 999px;
-    margin: 4px;
-    padding: 0 10px;
+.modules-center {
+	margin: 4px;
+	padding: 0 10px;
 }
+
+.modules-center > widget > * {
+	background-color: #771982;
+	border-radius: 999px;
+	margin-right: 10px;
+	padding: 0 10px;
+}
+
+.modules-center label {
+	color: #d8fcfb
+}
+
+.modules-right {
+	background-color: red;
+	/* margin: 4px 0; */
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0 0;
+}
+
+.modules-right > widget {
+	background-color: yellow;
+	padding: 0;
+	margin: 0;
+	border-radius: 999px;
+}
+
+.modules-right > widget > * {
+	background-color: #771982;
+	border-radius: 999px;
+	margin: 0;
+	/* margin-right: 10px; */
+	padding: 0 10px;
+}
+
+/* .modules-right > widget:last-child {
+	margin-right: 0;
+} */
+
+/* .modules-left {
+	background-color: #7c1a8c;
+}
+
+
+.modules-right {
+	background-color: #b1256a;
+} */
 
 tooltip {
-    background: #030a28;
+    background: #002040;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+#workspaces button {
+	border-radius: 999px;
+	/* width: 30px; */
+}
+
+#workspaces button.active {
+	border-radius: 999px;
+	background: #9f2b92;
+}
+
+/* #workspaces button.active label {
+	color: #1e1e2e;
+} */
