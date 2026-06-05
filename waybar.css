@@ -23,6 +23,25 @@ label {
     
 } */
 
+#mpris {
+	padding-left: 10px;
+	padding-right: 10px;
+	/* background-color: #1bc157; */
+	background-color: #3e0090;
+	color: white;
+	border-radius: 999px;
+}
+
+#mpris.spotify {
+	background-color: #1bc157;
+	color: black;
+}
+
+#mpris.firefox {
+	background-color: #CD201F;
+	color: white;
+}
+
 .modules-left {
 	border-radius: 999px;
 	margin: 4px 0;
