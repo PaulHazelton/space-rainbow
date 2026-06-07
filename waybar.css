@@ -102,6 +102,12 @@ label {
 	padding: 0 8px;
 }
 
+menu {
+    background: #000933; /* Dark background */
+    border: 2px solid #cdd6f4; /* Border color */
+    border-radius: 8px;
+    padding: 4px;
+}
 
 tooltip {
 	background: #000933;
