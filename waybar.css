@@ -1,129 +1,48 @@
-/* Replace with your specific font (e.g., CaskaydiaMono, JetBrainsMono) */
-* {
-	font-family: "JetBrainsMono Nerd Font Propo";
-	font-size: 20px;
-}
-
-label {
-	color: #d6fdfd;
-	padding: 0;
-	margin: 0;
-	min-width: 0;
-}
-
-/* #tray {
-    border-radius: 999px;
-    margin: 1px 1px;
-    padding: 0 1px;
-}
-
-#tray window{
-    margin: 1px 1px;
-    padding: 0 1px;
-    
-} */
-
-#mpris {
-	padding-left: 10px;
-	padding-right: 10px;
-	/* background-color: #1bc157; */
-	background-color: #3e0090;
-	color: white;
-	border-radius: 999px;
-}
-
-#mpris.spotify {
-	background-color: #1bc157;
-	color: black;
-}
-
-#mpris.firefox {
-	background-color: #CD201F;
-	color: white;
-}
-
-.modules-left {
-	border-radius: 999px;
-	margin: 4px 0;
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
-.modules-left>widget {
-	/* background-color: #0a165c; */
-	background-color: #13009f;
-	border-radius: 999px;
-	padding: 0;
-	margin: 0;
-
-	/* border-color: #02b6eb;
-	border-style: solid;
-	border-width: 1px; */
-}
-
-.modules-center {
-	margin: 4px;
-	padding: 0 10px;
-}
-
-.modules-center>widget>* {
-	/* background-color: #35078b; */
-	background-color: #56006b;
-	/* background-color: #002569; */
-	border-radius: 999px;
-	padding: 0 10px;
-}
-/* 
-.modules-center>widget>label {
-	color: black;
-} */
-
-.modules-center label {
-	color: #ffffff
-}
-
-.modules-right {
-	margin: 4px;
-}
-.modules-right > widget {
-	margin: 0;
-	padding: 0;
-	
-	/* background-color: #751a81; */
-	/* background-color: #323fb1; */
-	background-color: #35078b;
-	/* border-color: #323fb1;
-	border-style: solid;
-	border-width: 1px; */
-	border-radius: 999px;
-}
-
-.modules-right>widget>* {
-	padding: 0 8px;
-}
-
-menu {
-    background: #000933; /* Dark background */
-    border: 2px solid #cdd6f4; /* Border color */
-    border-radius: 8px;
-    padding: 4px;
-}
+@define-color foreground #d6fdfd;
+@define-color background #0a165c;
+/* @define-color background #d6fdfd;
+@define-color foreground #35078b; */
 
 tooltip {
 	background: #000933;
-	border-radius: 12px;
-	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-color: rgba(255, 255, 255, 0.1);
 }
 
-#workspaces button {
-	border-radius: 999px;
+menu {
+	background: #000933;
+	border-color: #cdd6f4;
+}
+
+.modules-left > widget > * {
+	background-color: #0a165c;
+}
+
+.modules-center > widget > * {
+	background-color: #56006b;
+}
+
+.modules-right > widget > * {	
+	background-color: #35078b;
 }
 
 #workspaces button.active {
-	border-radius: 999px;
 	background: #02b6eb;
 }
 
 #workspaces button.active label {
 	color: #ffffff;
 }
+
+#mpris {
+	background-color: #3e0090;
+}
+
+/* #mpris.spotify {
+	background-color: #005c22;
+	color: white;
+}
+
+#mpris.firefox {
+	background-color: #CD201F;
+	color: white;
+} */
