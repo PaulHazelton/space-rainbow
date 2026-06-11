@@ -7,7 +7,10 @@
 window {
     background: @background-color;
     border: 2px solid @border-color;
-    border-radius: 10px;
+}
+
+window#osd {
+    border-radius: 12px; /* Adjust the pixel value to change roundness */
 }
 
 #container {
