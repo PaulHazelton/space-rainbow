@@ -1,8 +1,8 @@
-@define-color background-color rgba(10,10,20,0.9);  /* Deep midnight blue with transparency */
-@define-color border-color rgb(226, 3, 122);        /* Bright sky blue */
-@define-color label #B3E5FC;               /* Soft glowing cyan */
-@define-color image #B3E5FC;               /* Soft glowing cyan */
-@define-color progress #00B0FF;            /* Rich azure */
+@define-color background-color rgba(10,10,20,0.9);  
+@define-color border-color rgb(226, 3, 122);        
+@define-color label #B3E5FC;               
+@define-color image #B3E5FC;               
+@define-color progress #00B0FF;            
 
 window {
     background: @background-color;
@@ -31,13 +31,13 @@ window#osd {
 }
 
 progressbar {
-    background: rgba(27, 42, 58, 0.5);
+    background: rgba(27, 42, 58, 1);
     border-radius: 5px;
     min-height: 10px;
 }
 
 progressbar > trough {
-    background: rgba(27, 42, 58, 0.5);
+    background: rgba(27, 42, 58, 1);
     border-radius: 5px;
 }
 
