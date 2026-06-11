@@ -1,0 +1,169 @@
+@import "../omarchy/current/theme/waybar.css";
+
+/* Color Overrides */
+
+/* tooltip {
+	background: @background;
+	border-color: @foreground;
+}
+
+.modules-left > widget > *,
+.modules-center > widget > *,
+.modules-right > widget > * {
+	background-color: @background;
+}
+
+#workspaces button.active {
+	background-color: @foreground;
+}
+
+#workspaces button.active label {
+	color: @background;
+}
+
+#mpris {
+	background-color: @background;
+} */
+
+/* End */
+
+/* Structure */
+* {
+	background-color: transparent;
+	color: @foreground;
+
+	border: none;
+	border-radius: 0;
+	min-height: 0;
+	font-family: 'JetBrainsMono Nerd Font';
+	font-size: 12px;
+}
+
+label {
+	color: @foreground;
+}
+
+menu {
+	padding: 4px;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 8px;
+}
+
+tooltip {
+	background-color: @foreground;
+	padding: 2px;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 12px;
+}
+
+.modules-left {
+	margin: 4px 0;
+	margin-left: 8px;
+}
+
+.modules-left > widget > * {
+	border-radius: 999px;
+}
+
+.modules-center {
+	margin: 4px 0;
+}
+
+.modules-center > widget > * {
+	border-radius: 999px;
+	padding: 0 10px;
+}
+
+.modules-right {
+	margin: 4px 0;
+	margin-right: 8px;
+}
+
+.modules-right > widget > * {
+	border-radius: 999px;
+	padding: 0 8px;
+}
+
+#workspaces button {
+	all: initial;
+	padding: 0 6px;
+	margin: 0;
+	min-width: 9px;
+	border-radius: 999px;
+}
+
+#workspaces button.empty {
+	opacity: 0.5;
+}
+
+#cpu,
+#battery,
+#pulseaudio,
+#network,
+#bluetooth,
+#mpris,
+#custom-omarchy,
+#custom-update {
+	min-width: 1px;
+	margin: 0 0px;
+	padding: 0 10px;
+}
+
+#custom-notification-status {
+	padding-left: 9px;
+	padding-right: 13px;
+}
+
+#network {
+	padding-left: 7px;
+	padding-right: 11px;
+}
+
+#tray {
+	margin-right: 8px;
+}
+
+#custom-expand-icon {
+	margin-right: 8px;
+}
+
+/* Untested below */
+
+#custom-update {
+	font-size: 10px;
+}
+
+#custom-weather {
+	margin-left: 7.5px;
+	margin-right: 7.5px;
+}
+
+#custom-weather.unavailable {
+	min-width: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.hidden {
+	opacity: 0;
+}
+
+#custom-screenrecording-indicator.active {
+	color: #a55555;
+}
+
+#custom-idle-indicator.active,
+#custom-notification-silencing-indicator.active {
+	color: #a55555;
+}
+
+#custom-voxtype {
+	min-width: 12px;
+	margin: 0 0 0 7.5px;
+}
+
+#custom-voxtype.recording {
+	color: #a55555;
+}
