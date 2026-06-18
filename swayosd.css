@@ -31,14 +31,13 @@ window#osd {
 }
 
 progressbar {
-    background: rgba(27, 42, 58, 1);
-    border-radius: 5px;
     min-height: 10px;
 }
 
 progressbar > trough {
     background: rgba(27, 42, 58, 1);
-    border-radius: 5px;
+    border-radius: 999px;
+	
 }
 
 progressbar > trough > progress {
